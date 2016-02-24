@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF223811C7D847C000A7B81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF223801C7D847C000A7B81 /* main.m */; };
+		ACF223841C7D847C000A7B81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF223831C7D847C000A7B81 /* AppDelegate.m */; };
+		ACF223871C7D847C000A7B81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF223861C7D847C000A7B81 /* ViewController.m */; };
+		ACF2238A1C7D847C000A7B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF223881C7D847C000A7B81 /* Main.storyboard */; };
+		ACF2238C1C7D847C000A7B81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2238B1C7D847C000A7B81 /* Images.xcassets */; };
+		ACF2238F1C7D847C000A7B81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF2238D1C7D847C000A7B81 /* LaunchScreen.xib */; };
+		ACF2239B1C7D847C000A7B81 /* NGen_Dash_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF2239A1C7D847C000A7B81 /* NGen_Dash_BoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF223951C7D847C000A7B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF223731C7D847C000A7B81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF2237A1C7D847C000A7B81;
+			remoteInfo = "NGen Dash Board";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF2237B1C7D847C000A7B81 /* NGen Dash Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NGen Dash Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2237F1C7D847C000A7B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF223801C7D847C000A7B81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACF223821C7D847C000A7B81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACF223831C7D847C000A7B81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACF223851C7D847C000A7B81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACF223861C7D847C000A7B81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACF223891C7D847C000A7B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF2238B1C7D847C000A7B81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACF2238E1C7D847C000A7B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACF223941C7D847C000A7B81 /* NGen Dash BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NGen Dash BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF223991C7D847C000A7B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF2239A1C7D847C000A7B81 /* NGen_Dash_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGen_Dash_BoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF223781C7D847C000A7B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF223911C7D847C000A7B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF223721C7D847C000A7B81 = {
+			isa = PBXGroup;
+			children = (
+				ACF2237D1C7D847C000A7B81 /* NGen Dash Board */,
+				ACF223971C7D847C000A7B81 /* NGen Dash BoardTests */,
+				ACF2237C1C7D847C000A7B81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF2237C1C7D847C000A7B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2237B1C7D847C000A7B81 /* NGen Dash Board.app */,
+				ACF223941C7D847C000A7B81 /* NGen Dash BoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF2237D1C7D847C000A7B81 /* NGen Dash Board */ = {
+			isa = PBXGroup;
+			children = (
+				ACF223821C7D847C000A7B81 /* AppDelegate.h */,
+				ACF223831C7D847C000A7B81 /* AppDelegate.m */,
+				ACF223851C7D847C000A7B81 /* ViewController.h */,
+				ACF223861C7D847C000A7B81 /* ViewController.m */,
+				ACF223881C7D847C000A7B81 /* Main.storyboard */,
+				ACF2238B1C7D847C000A7B81 /* Images.xcassets */,
+				ACF2238D1C7D847C000A7B81 /* LaunchScreen.xib */,
+				ACF2237E1C7D847C000A7B81 /* Supporting Files */,
+			);
+			path = "NGen Dash Board";
+			sourceTree = "<group>";
+		};
+		ACF2237E1C7D847C000A7B81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2237F1C7D847C000A7B81 /* Info.plist */,
+				ACF223801C7D847C000A7B81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACF223971C7D847C000A7B81 /* NGen Dash BoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2239A1C7D847C000A7B81 /* NGen_Dash_BoardTests.m */,
+				ACF223981C7D847C000A7B81 /* Supporting Files */,
+			);
+			path = "NGen Dash BoardTests";
+			sourceTree = "<group>";
+		};
+		ACF223981C7D847C000A7B81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF223991C7D847C000A7B81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF2237A1C7D847C000A7B81 /* NGen Dash Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2239E1C7D847C000A7B81 /* Build configuration list for PBXNativeTarget "NGen Dash Board" */;
+			buildPhases = (
+				ACF223771C7D847C000A7B81 /* Sources */,
+				ACF223781C7D847C000A7B81 /* Frameworks */,
+				ACF223791C7D847C000A7B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NGen Dash Board";
+			productName = "NGen Dash Board";
+			productReference = ACF2237B1C7D847C000A7B81 /* NGen Dash Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF223931C7D847C000A7B81 /* NGen Dash BoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF223A11C7D847C000A7B81 /* Build configuration list for PBXNativeTarget "NGen Dash BoardTests" */;
+			buildPhases = (
+				ACF223901C7D847C000A7B81 /* Sources */,
+				ACF223911C7D847C000A7B81 /* Frameworks */,
+				ACF223921C7D847C000A7B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF223961C7D847C000A7B81 /* PBXTargetDependency */,
+			);
+			name = "NGen Dash BoardTests";
+			productName = "NGen Dash BoardTests";
+			productReference = ACF223941C7D847C000A7B81 /* NGen Dash BoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF223731C7D847C000A7B81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Global System Technology";
+				TargetAttributes = {
+					ACF2237A1C7D847C000A7B81 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ACF223931C7D847C000A7B81 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ACF2237A1C7D847C000A7B81;
+					};
+				};
+			};
+			buildConfigurationList = ACF223761C7D847C000A7B81 /* Build configuration list for PBXProject "NGen Dash Board" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF223721C7D847C000A7B81;
+			productRefGroup = ACF2237C1C7D847C000A7B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF2237A1C7D847C000A7B81 /* NGen Dash Board */,
+				ACF223931C7D847C000A7B81 /* NGen Dash BoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF223791C7D847C000A7B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2238A1C7D847C000A7B81 /* Main.storyboard in Resources */,
+				ACF2238F1C7D847C000A7B81 /* LaunchScreen.xib in Resources */,
+				ACF2238C1C7D847C000A7B81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF223921C7D847C000A7B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF223771C7D847C000A7B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF223871C7D847C000A7B81 /* ViewController.m in Sources */,
+				ACF223841C7D847C000A7B81 /* AppDelegate.m in Sources */,
+				ACF223811C7D847C000A7B81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF223901C7D847C000A7B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2239B1C7D847C000A7B81 /* NGen_Dash_BoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF223961C7D847C000A7B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF2237A1C7D847C000A7B81 /* NGen Dash Board */;
+			targetProxy = ACF223951C7D847C000A7B81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF223881C7D847C000A7B81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF223891C7D847C000A7B81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF2238D1C7D847C000A7B81 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF2238E1C7D847C000A7B81 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF2239C1C7D847C000A7B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACF2239D1C7D847C000A7B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF2239F1C7D847C000A7B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NGen Dash Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACF223A01C7D847C000A7B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NGen Dash Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACF223A21C7D847C000A7B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NGen Dash BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGen Dash Board.app/NGen Dash Board";
+			};
+			name = Debug;
+		};
+		ACF223A31C7D847C000A7B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NGen Dash BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGen Dash Board.app/NGen Dash Board";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF223761C7D847C000A7B81 /* Build configuration list for PBXProject "NGen Dash Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2239C1C7D847C000A7B81 /* Debug */,
+				ACF2239D1C7D847C000A7B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2239E1C7D847C000A7B81 /* Build configuration list for PBXNativeTarget "NGen Dash Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2239F1C7D847C000A7B81 /* Debug */,
+				ACF223A01C7D847C000A7B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF223A11C7D847C000A7B81 /* Build configuration list for PBXNativeTarget "NGen Dash BoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF223A21C7D847C000A7B81 /* Debug */,
+				ACF223A31C7D847C000A7B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF223731C7D847C000A7B81 /* Project object */;
+}
